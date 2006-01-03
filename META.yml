@@ -1,19 +1,21 @@
-name: SMS-Send-AU-MyVodafone
-version: 0.01
 abstract: An SMS::Send driver for the myvodafone.com.au website
-author: Adam Kennedy <cpan@ali.as>, L<http://ali.as/>
-license: perl
-distribution_type: module
+author: 'Adam Kennedy <cpan@ali.as>, L<http://ali.as/>'
 build_requires:
   File::Spec: 0.80
   Test::More: 0.47
-requires:
-  perl: 5.005
-  Carp: 0
-  SMS::Send: 0.02
-  WWW::Mechanize: 1.06
-  LWP: 5.69
+distribution_type: module
+generated_by: Module::Install version 0.50
+license: perl
+name: SMS-Send-AU-MyVodafone
 no_index:
   directory:
     - inc
-generated_by: Module::Install version 0.45
+    - t
+requires:
+  Carp: 0
+  IO::Socket::SSL: 0.97
+  LWP: 5.69
+  SMS::Send: 0.02
+  WWW::Mechanize: 1.06
+  perl: 5.005
+version: 0.02
