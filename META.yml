@@ -1,26 +1,28 @@
---- 
-abstract: An SMS::Send driver for the myvodafone.com.au website
-author: 
-  - Adam Kennedy <adamk@cpan.org>, L<http://ali.as/>
-build_requires: 
-  File::Spec: 0.80
+---
+abstract: 'An SMS::Send driver for the myvodafone.com.au website'
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
   Test::More: 0.47
 distribution_type: module
-generated_by: Module::Install version 0.68
+generated_by: 'Module::Install version 0.77'
 license: perl
-meta-spec: 
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: SMS::Send::AU::MyVodafone
 name: SMS-Send-AU-MyVodafone
-no_index: 
-  directory: 
+no_index:
+  directory:
     - inc
     - t
-requires: 
+requires:
   Carp: 0
   IO::Socket::SSL: 0.97
   LWP: 5.69
   SMS::Send: 0.02
   WWW::Mechanize: 1.06
-  perl: 5.005
-version: 0.03
+  perl: 5.6.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 1.04
